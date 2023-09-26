@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Configuracion"
+             BackgroundImageSource="fondo_configuracion"
+             Shell.NavBarIsVisible="False"
+             Title="Configuracion">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout>
+                <FlexLayout BackgroundColor="#ffbd34" Direction="Row" JustifyContent="Start" AlignItems="Center" HeightRequest="63">
+                    <Label Text="Configuracion" TextColor="White" FontSize="Large" Margin="10" />
+                </FlexLayout>
+                <Frame Margin="25,20" BorderColor="#1C375C" HasShadow="True" CornerRadius="10">
+                    <StackLayout Padding="20">
+                        <Label Text="         Validacion de correo electronico" FontAttributes="Bold"> </Label>
+                         <Entry Placeholder="Correo electronico" Margin="0,0,0,10" />
+                        <Button Text="Enviar codigo de verificacion" Margin="0,0,0,10" BackgroundColor="#ffbd34" />
+                        <Entry Placeholder="Codigo de verificacion" Margin="0,0,0,10" />
+                        <Button Text="Verificar codigo" Margin="0,0,0,10" BackgroundColor="Gray" />
+                       
+                    </StackLayout>
+                </Frame>
+                <Frame Margin="25,20" BorderColor="#1C375C" HasShadow="True" CornerRadius="10">
+                    <StackLayout Padding="20">
+                        <Label Text="      Validacion de correo datos de la casa" FontAttributes="Bold"></Label>
+                        <Entry Placeholder="Selecciona una casa" Margin="0,0,0,10" />
+                        <Entry Placeholder="numero de serie" Margin="0,0,0,10" />
+                        <Entry Placeholder="Contraseña" Margin="0,0,0,10" />
+                        <Button Text="Habilitar aplicacion" Margin="0,0,0,10" BackgroundColor="Gray" />
+
+                    </StackLayout>
+                </Frame>
+
+                <FlexLayout BackgroundColor="White" Direction="Row" JustifyContent="SpaceBetween" Margin="0,5,0,0" HeightRequest="80">
+                    <Button Text="     Alertas " BackgroundColor="Transparent" TextColor="Black" x:Name="aler" Clicked="aler_Clicked" />
+                    <Button Text="Configuracion" BackgroundColor="Transparent" TextColor="Black" x:Name="Config" Clicked="Config_Clicked" />
+                    <Button Text="Administrador" BackgroundColor="Transparent" TextColor="Black" x:Name="Admin" Clicked="Admin_Clicked" />
+                </FlexLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
