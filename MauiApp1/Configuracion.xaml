@@ -14,21 +14,21 @@
                 </FlexLayout>
                 <Frame Margin="25,20" BorderColor="#1C375C" HasShadow="True" CornerRadius="10">
                     <StackLayout Padding="20">
-                        <Label Text="         Validacion de correo electronico" FontAttributes="Bold"> </Label>
-                         <Entry Placeholder="Correo electronico" Margin="0,0,0,10" />
-                        <Button Text="Enviar codigo de verificacion" Margin="0,0,0,10" BackgroundColor="#ffbd34" />
-                        <Entry Placeholder="Codigo de verificacion" Margin="0,0,0,10" />
-                        <Button Text="Verificar codigo" Margin="0,0,0,10" BackgroundColor="Gray" />
+                        <Label Text="         Validacion de correo electronico" FontAttributes="Bold" TextColor="Black"> </Label>
+                        <Entry Placeholder="Correo electronico" Margin="0,0,0,10" TextColor="Black"/>
+                        <Button Text="Enviar codigo de verificacion" Margin="0,0,0,10" BackgroundColor="#ffbd34" TextColor="White" />
+                        <Entry Placeholder="Codigo de verificacion" Margin="0,0,0,10" TextColor="Black" />
+                        <Button Text="Verificar codigo" Margin="0,0,0,10" BackgroundColor="Gray" TextColor="White" />
                        
                     </StackLayout>
                 </Frame>
                 <Frame Margin="25,20" BorderColor="#1C375C" HasShadow="True" CornerRadius="10">
                     <StackLayout Padding="20">
-                        <Label Text="      Validacion de correo datos de la casa" FontAttributes="Bold"></Label>
-                        <Entry Placeholder="Selecciona una casa" Margin="0,0,0,10" />
-                        <Entry Placeholder="numero de serie" Margin="0,0,0,10" />
-                        <Entry Placeholder="Contraseña" Margin="0,0,0,10" />
-                        <Button Text="Habilitar aplicacion" Margin="0,0,0,10" BackgroundColor="Gray" />
+                        <Label Text="      Validacion de correo datos de la casa" FontAttributes="Bold" TextColor="Black"></Label>
+                        <Entry Placeholder="Selecciona una casa" Margin="0,0,0,10" TextColor="Black"/>
+                        <Entry Placeholder="numero de serie" Margin="0,0,0,10" TextColor="Black" />
+                        <Entry Placeholder="Contraseña" Margin="0,0,0,10" TextColor="Black"/>
+                        <Button Text="Habilitar aplicacion" Margin="0,0,0,10" BackgroundColor="Gray" TextColor="White"/>
 
                     </StackLayout>
                 </Frame>
