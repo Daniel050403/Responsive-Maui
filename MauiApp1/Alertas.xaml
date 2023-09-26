@@ -31,13 +31,13 @@
                             <ColumnDefinition Width="Auto" />
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
-                        <Image Source="desactivar.png" Grid.Row="1" Grid.Column="0" Margin="20" WidthRequest="55" HeightRequest="55" />
+                        <Image Source="desactivar.png" Grid.Row="1" Grid.Column="0" Margin="20" WidthRequest="70" HeightRequest="65" />
                         <Image Source="ladron.png" Grid.Row="0" Grid.Column="2" Margin="20" WidthRequest="55" HeightRequest="55" />
                         <Image Source="llamada.png" Grid.Row="0" Grid.Column="1" Margin="20" WidthRequest="55" HeightRequest="55" />
                         <Image Source="robo.png" Grid.Row="2" Grid.Column="1" Margin="20" WidthRequest="55" HeightRequest="55" />
-                        <Image Source="ayuda.png" Grid.Row="1" Grid.Column="1" Margin="20" WidthRequest="55" HeightRequest="55" />
+                        <Image Source="ayuda.png" Grid.Row="1" Grid.Column="1" Margin="20" WidthRequest="70" HeightRequest="65" />
                         <Image Source="robocoche.png" Grid.Row="0" Grid.Column="0" Margin="20" WidthRequest="55" HeightRequest="55" />
-                        <Image Source="robocasa.png" Grid.Row="1" Grid.Column="2" Margin="20" WidthRequest="55" HeightRequest="55" />
+                        <Image Source="robocasa.png" Grid.Row="1" Grid.Column="2" Margin="20" WidthRequest="55" HeightRequest="85" />
                     </Grid>
                 </Frame>
                 <FlexLayout BackgroundColor="White" Direction="Row" JustifyContent="SpaceBetween" Margin="0,5,0,0" HeightRequest="80">

@@ -19,6 +19,7 @@
                         <Entry Placeholder="Codigo de verificacion" Margin="0,0,0,20" TextColor="Black"/>
                         <Button Text="Inciar sesion" Margin="0,0,0,10" BackgroundColor="#ffbd34" TextColor="White" />
 
+
                     </StackLayout>
                 </Frame>
                 <Frame Margin="25,23" BorderColor="#1C375C" HasShadow="True" CornerRadius="10">
