@@ -48,13 +48,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\alarma.png" />
+	  <None Remove="Resources\Images\alarma_desactivar.png" />
 	  <None Remove="Resources\Images\ayuda.png" />
-	  <None Remove="Resources\Images\desactivar.png" />
-	  <None Remove="Resources\Images\ladron.png" />
-	  <None Remove="Resources\Images\llamada.png" />
-	  <None Remove="Resources\Images\robo.png" />
-	  <None Remove="Resources\Images\robocasa.png" />
-	  <None Remove="Resources\Images\robocoche.png" />
+	  <None Remove="Resources\Images\emergencia.png" />
+	  <None Remove="Resources\Images\ladron_auto.png" />
+	  <None Remove="Resources\Images\ladron_casa.png" />
+	  <None Remove="Resources\Images\ladron_robando.png" />
+	  <None Remove="Resources\Images\ver_ladron.png" />
 	</ItemGroup>
 
 	<ItemGroup>

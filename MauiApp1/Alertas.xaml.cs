@@ -1,25 +1,29 @@
-namespace MauiApp1;
+using System;
 
-public partial class Alertas : ContentPage
+
+namespace MauiApp1
 {
-	public Alertas()
-	{
-		InitializeComponent();
-	}
-
-    private async void Config_Clicked(object sender, EventArgs e)
+  
+        public partial class Alertas : ContentPage
     {
-        await Shell.Current.GoToAsync("Configuracion", true);
-    }
+        public Alertas()
+        {
+            InitializeComponent();
+        }
 
-    private async void Admin_Clicked(object sender, EventArgs e)
-    {
-        await Shell.Current.GoToAsync("Admistrador", true);
+        private async void Config_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("Configuracion", true);
+        }
 
-    }
+        private async void Admin_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("Admistrador", true);
+        }
 
-    private async void aler_Clicked(object sender, EventArgs e)
-    {
-        await Shell.Current.GoToAsync("Alertas", true);
+        private async void aler_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("Alertas", true);
+        }
     }
 }

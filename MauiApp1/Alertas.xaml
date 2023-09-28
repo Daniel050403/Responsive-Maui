@@ -11,14 +11,14 @@
                 <FlexLayout BackgroundColor="#ffbd34" Direction="Row" JustifyContent="Start" AlignItems="Center" HeightRequest="63">
                     <Label Text="Alertas" TextColor="White" FontSize="Large" Margin="10" />
                 </FlexLayout>
-                <Frame Margin="25,34" BorderColor="#1C375C" HasShadow="True" CornerRadius="10">
+                <Frame Margin="25,30,25,-10" BorderColor="#1C375C" HasShadow="True" CornerRadius="10">
                     <StackLayout Padding="20">
                         <Entry Placeholder="Mensaje de alerta" Margin="0,0,0,10" PlaceholderColor="gray" TextColor="Black" />
                         <Button Text="Enviar mensaje y activar alarma" Margin="0,0,0,10" BackgroundColor="#ffbd34" TextColor="White" />
                         <Button Text="Enviar mensaje sin activar alarma" Margin="0,0,0,10" BackgroundColor="#ffbd34" TextColor="White"/>
                     </StackLayout>
                 </Frame>
-                <Frame Margin="25,28" BorderColor="#1C375C" HasShadow="True" CornerRadius="10">
+                <Frame Margin="25,50" BorderColor="#1C375C" HasShadow="False" CornerRadius="10">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*" />
@@ -31,13 +31,14 @@
                             <ColumnDefinition Width="Auto" />
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
-                        <Image Source="desactivar.png" Grid.Row="1" Grid.Column="0" Margin="20" WidthRequest="70" HeightRequest="65" />
-                        <Image Source="ladron.png" Grid.Row="0" Grid.Column="2" Margin="20" WidthRequest="55" HeightRequest="55" />
-                        <Image Source="llamada.png" Grid.Row="0" Grid.Column="1" Margin="20" WidthRequest="55" HeightRequest="55" />
-                        <Image Source="robo.png" Grid.Row="2" Grid.Column="1" Margin="20" WidthRequest="55" HeightRequest="55" />
-                        <Image Source="ayuda.png" Grid.Row="1" Grid.Column="1" Margin="20" WidthRequest="70" HeightRequest="65" />
-                        <Image Source="robocoche.png" Grid.Row="0" Grid.Column="0" Margin="20" WidthRequest="55" HeightRequest="55" />
-                        <Image Source="robocasa.png" Grid.Row="1" Grid.Column="2" Margin="20" WidthRequest="55" HeightRequest="85" />
+
+                        <ImageButton Source="ladron_robando.png"  Grid.Row="1" Grid.Column="0" Margin="20" WidthRequest="65" HeightRequest="60" Style="{StaticResource ImageButtonStyle}" />
+                        <ImageButton Source="ver_ladron.png" Grid.Row="0" Grid.Column="2" Margin="20" WidthRequest="65" HeightRequest="60" Style="{StaticResource ImageButtonStyle}" />
+                        <ImageButton Source="emergencia.png" Grid.Row="0" Grid.Column="1" Margin="20" WidthRequest="65" HeightRequest="60" Style="{StaticResource ImageButtonStyle}" />
+                        <ImageButton Source="alarma_desactivar.png" Grid.Row="2" Grid.Column="1" Margin="20" WidthRequest="65" HeightRequest="60" Style="{StaticResource ImageButtonStyle}" />
+                        <ImageButton Source="ayuda.png" Grid.Row="1" Grid.Column="1" Margin="20" WidthRequest="65" HeightRequest="60" Style="{StaticResource ImageButtonStyle}" />
+                        <ImageButton Source="ladron_auto.png" Grid.Row="0" Grid.Column="0" Margin="20" WidthRequest="65" HeightRequest="60" Style="{StaticResource ImageButtonStyle}" />
+                        <ImageButton Source="ladron_casa.png" Grid.Row="1" Grid.Column="2" Margin="20" WidthRequest="65" HeightRequest="60" Style="{StaticResource ImageButtonStyle}" />
                     </Grid>
                 </Frame>
                 <FlexLayout BackgroundColor="White" Direction="Row" JustifyContent="SpaceBetween" Margin="0,5,0,0" HeightRequest="80">
