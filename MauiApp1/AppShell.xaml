@@ -6,10 +6,17 @@
     xmlns:local="clr-namespace:MauiApp1"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Alertas"
-        
-        ContentTemplate="{DataTemplate local:Alertas}"
-        Route="MainPage" />
+    <TabBar>
+        <ShellContent
+            Title="Alertas"
+            ContentTemplate="{DataTemplate local:Alertas}"
+            Route="MainPage" />
+        <ShellContent Title="Configuración"                  
+                 ContentTemplate="{DataTemplate local:Configuracion}" />
+        <ShellContent Title="Administrador"                    
+                 ContentTemplate="{DataTemplate local:Admistrador}" />
+        <ShellContent Title="Alertas"                    
+                 ContentTemplate="{DataTemplate local:Alertas}" />
+    </TabBar>
 
 </Shell>

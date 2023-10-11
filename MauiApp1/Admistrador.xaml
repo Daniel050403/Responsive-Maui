@@ -33,11 +33,8 @@
                     </StackLayout>
                 </Frame>
 
-                <FlexLayout BackgroundColor="#ffbd34" Direction="Row" JustifyContent="SpaceBetween" Margin="0,5,0,0" HeightRequest="80">
-                    <Button Text="     Alertas " BackgroundColor="Transparent" x:Name="aler" Clicked="aler_Clicked" TextColor="White" />
-                    <Button Text="Configuracion" BackgroundColor="Transparent" TextColor="White" x:Name="Config" Clicked="Config_Clicked" />
-                    <Button Text="Administrador" BackgroundColor="Transparent" TextColor="White" x:Name="Admin" Clicked="Admin_Clicked" />
-                </FlexLayout>
+                
+                
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

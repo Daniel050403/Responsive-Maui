@@ -41,11 +41,7 @@
                         <ImageButton Source="ladron_casa.png" Grid.Row="1" Grid.Column="2" Margin="20" WidthRequest="65" HeightRequest="60" Style="{StaticResource ImageButtonStyle}" />
                     </Grid>
                 </Frame>
-                <FlexLayout BackgroundColor="White" Direction="Row" JustifyContent="SpaceBetween" Margin="0,5,0,0" HeightRequest="80">
-                    <Button Text="     Alertas " BackgroundColor="Transparent" TextColor="Black" x:Name="aler" Clicked="aler_Clicked" />
-                    <Button Text="Configuracion" BackgroundColor="Transparent" TextColor="Black" x:Name="Config" Clicked="Config_Clicked" />
-                    <Button Text="Administrador" BackgroundColor="Transparent" TextColor="Black" x:Name="Admin" Clicked="Admin_Clicked" />
-                </FlexLayout>
+                
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
